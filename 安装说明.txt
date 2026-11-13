@@ -1,0 +1,17 @@
+Endstone Bot 4.2.0 安装说明
+
+请先用 python -V 查看服务器 Python 版本，再安装对应文件：
+
+Python 3.11 -> endstone_bot-4.2.0-cp311-none-any.whl
+Python 3.12 -> endstone_bot-4.2.0-cp312-none-any.whl
+Python 3.13 -> endstone_bot-4.2.0-cp313-none-any.whl
+Python 3.14 -> endstone_bot-4.2.0-cp314-none-any.whl
+Python 3.15 -> endstone_bot-4.2.0-cp315-none-any.whl
+
+每个包同时支持 Windows 与 Linux，无需再区分系统。
+装错版本时 pip 会直接提示 not a supported wheel。
+
+安装示例（Python 3.12）：
+  pip install endstone_bot-4.2.0-cp312-none-any.whl
+
+安装后重启 Endstone 服务端即可。
